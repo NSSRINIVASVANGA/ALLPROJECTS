@@ -1,0 +1,52 @@
+.home-con {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.con {
+  padding: 20px;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.fail-con {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-el {
+  border: 1px solid #cbd5e1;
+  background-color: transparent;
+  color: #475569;
+  width: 200px;
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+}
+
+.list-con {
+  min-width: 70vw;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.fail-img {
+  width: 250px;
+}
+
+.button {
+  background-color: #328af2;
+  color: #ffffff;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+}
